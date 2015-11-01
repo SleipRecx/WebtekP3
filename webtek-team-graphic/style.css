@@ -1,0 +1,13 @@
+body {
+    margin: 0px;
+}
+#header {
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    background-color: burlywood;
+}
+
+#site_title {
+    margin-left: 20px;
+}
