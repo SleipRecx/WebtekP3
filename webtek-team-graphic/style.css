@@ -1,13 +1,43 @@
-body {
+html, body {
     margin: 0px;
+    padding: 0px;
 }
+
 #header {
     width: 100%;
     height: 100px;
     margin: 0px;
+    padding: 0px;
     background-color: burlywood;
 }
 
 #site_title {
     margin-left: 20px;
+    padding-top: 20px;
 }
+
+#dropdown_menu .major_elements{
+    display: inline;
+    list-style-type: none;
+    float: left;
+    padding-right: 90px;
+    text-align: center;
+}
+
+.major_elements .minor_elements {
+    display: none;
+    list-style-type: none;
+    float: left;
+    padding-right: 90px;
+    text-align: center;
+}
+
+.major_elements:hover .minor_elements{
+    position: absolute;
+    display: inline;
+    list-style-type: none;
+    float: left;
+    margin-left: -60px;
+    text-align: center;
+}
+
