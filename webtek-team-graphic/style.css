@@ -1,23 +1,25 @@
-<<<<<<< HEAD
 html, body {
     margin: 0px;
     padding: 0px;
 }
 
 #header {
+    font-family: Lato, sans-serif;
     width: 100%;
     height: 100px;
     margin: 0px;
     padding: 0px;
-    background-color: burlywood;
+    background-color: #41555f;
 }
 
 #site_title {
+    color: white;
     margin-left: 20px;
     padding-top: 20px;
 }
 
 #dropdown_menu .major_elements{
+    color: white;
     display: inline;
     list-style-type: none;
     float: left;
@@ -26,6 +28,7 @@ html, body {
 }
 
 .major_elements .minor_elements {
+    color: white;
     display: none;
     list-style-type: none;
     float: left;
@@ -34,6 +37,7 @@ html, body {
 }
 
 .major_elements:hover .minor_elements{
+    color: white;
     position: absolute;
     display: inline;
     list-style-type: none;
@@ -42,7 +46,6 @@ html, body {
     text-align: center;
 }
 
-=======
 .textfrontpage{
 	color: white;
 	font-size: 35px;
@@ -93,4 +96,3 @@ html, body {
 #footer span {
 	font-size: 120%;
 }
->>>>>>> e1385df67a15ba1065a6d29faee0c2979281ff61
