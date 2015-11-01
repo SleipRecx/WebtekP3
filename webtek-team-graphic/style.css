@@ -1,15 +1,23 @@
-html, body {
+body {
     margin: 0px;
     padding: 0px;
+    background-image: url("images/hair.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
 }
 
 #header {
+    overflow: hidden;
     font-family: Lato, sans-serif;
     width: 100%;
-    height: 100px;
+    height: 130px;
     margin: 0px;
     padding: 0px;
     background-color: #41555f;
+    opacity: 0.9;
 }
 
 #site_title {
@@ -46,23 +54,21 @@ html, body {
     text-align: center;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> b9dadc78529dde75d66b202eb146a17abc1a8696
-.textfrontpage{
-	color: white;
-	font-size: 35px;
-	text-align: left;
-	padding-left: 68%;
-	padding-top: 15%;
-	z-position: 1;
-	position: relative;
-}
-
 
 #frontpagephoto{
-	position: absolute;
+	position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+#frontpagephoto p{
+    position:  absolute;
+    top: 100px;
+    right: 100px;
+    color: white;
+    font-size: 35px;
+    text-align: left;
 }
 
 .infoSaloon{
@@ -80,7 +86,6 @@ html, body {
 
 }
 
-
 #footer {
 	background-color: #41555f;
 	color: white;
@@ -91,6 +96,9 @@ html, body {
 	padding: 20px;
 	line-height: 160%;
 	font-size: 110%;
+    bottom: 0px;
+    position: absolute;
+    opacity: 0.8;
 }
 
 #footer a {
@@ -100,7 +108,3 @@ html, body {
 #footer span {
 	font-size: 120%;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> b9dadc78529dde75d66b202eb146a17abc1a8696
