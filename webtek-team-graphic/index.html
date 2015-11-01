@@ -2,8 +2,18 @@
 <html>
 <head>
 	<title>HairwayHeaven</title>
+    <script>
+        window.addEventListener("load",loaded);
+        function loaded(){
+            console.log("hei");
+            document.getElementById("content").innerHTML='<object type="text/html" data="project_header.html" ></object>';
+
+        }
+    </script>
 </head>
 <body>
+    
+ <header id="content"></header>
 
 </body>
 </html>
