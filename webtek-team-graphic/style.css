@@ -1,7 +1,8 @@
-<<<<<<< HEAD
+
 html, body {
     margin: 0px;
     padding: 0px;
+	height: 100%;
 }
 
 #header {
@@ -42,7 +43,7 @@ html, body {
     text-align: center;
 }
 
-=======
+
 .textfrontpage{
 	color: white;
 	font-size: 35px;
@@ -75,6 +76,8 @@ html, body {
 
 
 #footer {
+	position: absolute;
+	bottom: 0;
 	background-color: #41555f;
 	color: white;
 	font-family: Lato, sans-serif;
@@ -93,4 +96,33 @@ html, body {
 #footer span {
 	font-size: 120%;
 }
->>>>>>> e1385df67a15ba1065a6d29faee0c2979281ff61
+
+
+
+.pricetable {
+	width:70%;
+	height:80%;
+	border:1px solid;
+	border-collapse:collapse;
+	padding:5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pricetable th {
+	border:1px solid;
+	padding:5px;
+	background:#FFFFFF;
+}
+.pricetable td {
+	border:1px solid;
+	text-align:center;
+	padding:5px;
+}
+
+#prices_section {
+	width: 100%;
+	height: 80%;
+	padding: 20px;
+	font-family: Lato, sans-serif;
+	text-align: center;
+}
