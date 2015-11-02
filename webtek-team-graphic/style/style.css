@@ -12,7 +12,6 @@ html, body {
 }
 
 /* START DROPDOWN MENU */
-
 #site_title {
     padding: 0px;
     margin: 15px 0px 0px 15px;
@@ -140,14 +139,20 @@ html, body {
 }
 
 .infoSaloon img{
-	width: 70%;
+    border: 1px solid black;
+	width: 90%;
 	height: 70%;
-	border-radius: 30px;
-	box-shadow: 0px 0px 10px #000000;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px #000000;
 }
 
 
-/* START Prices.html*/
+/* START prices.html*/
+#prices_section{
+    text-align: center;
+    color: #585858;
+}
+
 .pricetable {
 	width:70%;
 	height:80%;
@@ -175,18 +180,65 @@ html, body {
 	font-family: Lato, sans-serif;
 	text-align: center;
 }
-/* END Prices.html*/
+/* END prices.html*/
 
+/* START work.html*/
+#work_content{
+    text-align: center;
+    margin: 40px;
+    color: #585858;
+}
+/* END work.html*/
+
+
+/* START vison.html*/
 #vision_content{
     text-align: center;
+    margin: 40px;
+    color: #585858;
 }
+/* END vision.html*/
+
+
+/* START about.html*/
 #about_content{
     text-align: center;
+    margin: 40px;
+    color: #585858;
 }
+/* END about.html*/
+
+
+/* START trends.html*/
 #trends_content{
     text-align: center;
+    margin: 40px;
+    color: #585858;
 }
+/* END trends.html*/
 
+
+/* START appointment.html*/
 #appointment_content{
     text-align: center;
+    margin: 40px;
+    color: #585858;
 }
+/* END appointment.html*/
+
+/* START news.html*/
+#news_content{
+    text-align: center;
+    margin: 40px;
+    color: #585858;
+}
+/* END news.html*/
+
+/* START previouscuts.html*/
+#previouscuts_content{
+    text-align: center;
+    margin: 40px;
+    color: #585858;
+}
+/* END previouscuts.html*/
+
