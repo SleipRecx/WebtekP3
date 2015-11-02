@@ -1,54 +1,85 @@
 html, body {
     margin: 0px;
     padding: 0px;
+    font-family: Lato, sans-serif;
 }
 
-#header {
+.dropdown-wrapper{
     overflow: hidden;
-    font-family: Lato, sans-serif;
+    background-color: #41555f;
     width: 100%;
-    height: 130px;
-    margin: 0px;
+    height: 110px;
+    box-shadow: 0px 0px 20px #000000;
+    opacity: 0.9;
+    text-align: center;
+}
+.dropdown-wrapper ul {
+    height: 50px;
+    line-height: 320%;
+}
+
+.dropdown-parent li {
+    background-color: #41555f;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    width: 200px;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+  }
+
+.dropdown-parent li a {
+    display: block;
+    width: inherit;
+    color: #FFF;
+    font-size: 15pt;
+    text-align: center;
+    text-decoration: none;
+
+}
+.dropdown-parent div {
+    -webkit-transiton: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -ms-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    -transition: opacity 0.2s;
+    width: inherit;
+    position: absolute;
+    visibility: hidden;
+    margin: 0;
     padding: 0px;
     background-color: #41555f;
-    opacity: 0.9;
-    box-shadow: 0px 0px 20px #000000;
+}
+
+.dropdown-parent div a {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 5px 10px;
+    width: auto;
+    line-height: 200%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown-parent li:hover {
+    background-color: rgba(255, 255, 255, 0.19)
+}
+.dropdown-parent div a:hover {
+    background-color: rgba(255, 255, 255, 0.19)
 }
 
 #site_title {
+    padding: 0px;
+    margin: 15px 0px 0px 15px;
     color: white;
-    margin-left: 20px;
-    padding-top: 20px;
+    text-align: left;
 }
-
-#dropdown_menu .major_elements{
-    color: white;
-    display: inline;
-    list-style-type: none;
-    float: left;
-    padding-right: 90px;
-    text-align: center;
-}
-
-.major_elements .minor_elements {
-    color: white;
-    display: none;
-    list-style-type: none;
-    float: left;
-    padding-right: 90px;
-    text-align: center;
-}
-
-.major_elements:hover .minor_elements{
-    color: white;
-    position: absolute;
-    display: inline;
-    list-style-type: none;
-    float: left;
-    margin-left: -60px;
-    text-align: center;
-}
-
 
 #photoText{
     position:  absolute;
@@ -57,7 +88,6 @@ html, body {
     color: white;
     font-size: 25px;
     text-align: left;
-
 }
 
 .infoSaloon{
@@ -78,13 +108,12 @@ html, body {
 #footer {
 	background-color: #41555f;
 	color: white;
-	font-family: Lato, sans-serif;
 	width: 100%;
 	height: 7%;
 	text-align: center;
-	padding: 20px;
+	padding-top: 20px;
+    padding-bottom: 10px;
 	line-height: 160%;
-	font-size: 110%;
     bottom: 0px;
     position: absolute;
     opacity: 0.8;

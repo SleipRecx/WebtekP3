@@ -72,6 +72,9 @@ ipch/
 *.opensdf
 *.sdf
 
+# WebStorm
+*.idea
+
 # Visual Studio profiler
 *.psess
 *.vsp

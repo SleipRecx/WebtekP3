@@ -3,47 +3,32 @@
     <head>
         <link rel="stylesheet" href="style.css"/>
         <link href="http://fonts.googleapis.com/css?family=Lato&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+        <script src="dropdown.js"></script>
             <title>HairwayHeaven</title>
     </head>
     <body>
-        <header id="header">
-            <h2 id="site_title">Hairway to Heaven</h2>
-            <ul id="dropdown_menu">
-                <li class="major_elements"><a href="index.html">Home</a></li>
-                
-                <li class="major_elements"><a href="appointment.html">Appointment</a>
-                    <ul class="minor_elements">
-                        <li><a href="" class="dropdown_element">Element1</li>
-                        <li><a href="" class="dropdown_element">Element2</li>
-                        <li><a href="previouscuts.html" class="dropdown_element">Previous Cuts</li>
-                    </ul>
-                </li>
-                
-                <li class="major_elements"><a href="about.html">About</a>
-                    <ul class="minor_elements">
-                        <li><a href="vision.html" class="dropdown_element">Vision</li>
-                        <li><a href="" class="dropdown_element">Element2</li>
-                        <li><a href="" class="dropdown_element">Element3</li>
-                    </ul>
-                </li>
-                
-                <li class="major_elements"><a href="news.html">News</a>
-                    <ul class="minor_elements">
-                        <li><a href="" class="dropdown_element">Element1</li>
-                        <li><a href="" class="dropdown_element">Element2</li>
-                        <li><a href="" class="dropdown_element">Element3</li>
-                    </ul>
-                </li>
-                
-                <li class="major_elements"><a href="work.html">Work</a>
-                    <ul class="minor_elements">
-                        <li><a href="" class="dropdown_element">Element1</li>
-                        <li><a href="" class="dropdown_element">Element1</li>
-                        <li><a href="" class="dropdown_element">Element1</li>
-                    </ul>
-                </li>
-            </ul>
-        </header>
+    <div class= "dropdown-wrapper">
+        <h2 id="site_title">Hairway To Heaven</h2>
+        <ul class="dropdown-parent">
+            <li><a href="index.html">Home</a>
+            <li><a href="appointment.html" onmouseover="openMenu('menu1')" onmouseout="closeMenu()">Appointment</a>
+                <div id="menu1" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
+                    <a href="previouscuts.html"> Previous Cuts</a>
+                    <a href="#">Element2</a>
+                    <a href="#">Element3</a>
+                </div>
+            </li>
+            <li><a href="about.html" onmouseover="openMenu('menu2')" onmouseout="closeMenu()">About </a>
+                <div id="menu2" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
+                    <a href="vision.html"> Vision </a>
+                    <a href="#">Element2</a>
+                    <a href="#">Element3</a>
+                </div>
+            </li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="work.html">Work</a></li>
+        </ul>
+    </div>
         
         <p>
         Here potential new employees will be able to find more information about available positions at Hairway to Heaven. The page will outline what kind of employees the salon wants, and where they need new workers. The page will contain a button to download an application form in pdf format. The description will be in text format, mainly to give Hairway to Heaven the ability to properly explained what they want from a potential employee (more so than a table can provide). It is also the hope that a potential employee will find the text inspiring so that Hairway to Heaven can attract the best possible hairdressers.
