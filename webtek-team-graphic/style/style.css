@@ -4,6 +4,8 @@ html, body {
     font-family: Lato, sans-serif;
 }
 
+/* START DROPDOWN MENU */
+
 .dropdown-wrapper{
     overflow: hidden;
     background-color: #41555f;
@@ -15,21 +17,21 @@ html, body {
 }
 .dropdown-wrapper ul {
     height: 50px;
-    line-height: 320%;
+    line-height: 315%;
 }
 
 .dropdown-parent li {
     background-color: #41555f;
     cursor: pointer;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -ms-transition: all 0.2s;
-    -o-transition: all 0.2s;
     transition: all 0.2s;
     width: 200px;
     display: inline-block;
     list-style: none;
     text-align: center;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
   }
 
 .dropdown-parent li a {
@@ -70,9 +72,12 @@ html, body {
 .dropdown-parent li:hover {
     background-color: rgba(255, 255, 255, 0.19)
 }
+
 .dropdown-parent div a:hover {
     background-color: rgba(255, 255, 255, 0.19)
 }
+
+/* END DROPDOWN MENU */
 
 #site_title {
     padding: 0px;
@@ -82,9 +87,8 @@ html, body {
 }
 
 #photoText{
-    position:  absolute;
-    top: 150px;
-    right: 100px;
+    float: right;
+    padding-right: 100px;
     color: white;
     font-size: 25px;
     text-align: left;
@@ -114,8 +118,9 @@ html, body {
 	padding-top: 20px;
     padding-bottom: 10px;
 	line-height: 160%;
-    bottom: 0px;
     position: absolute;
+    bottom: 0px;
+    font-size: 10pt;
     opacity: 0.8;
     box-shadow: 0px 0px 20px #000000;
 }
@@ -154,4 +159,8 @@ html, body {
 	padding: 20px;
 	font-family: Lato, sans-serif;
 	text-align: center;
+}
+
+#vision_content{
+    text-align: center;
 }
