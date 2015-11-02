@@ -4,7 +4,21 @@ html, body {
     font-family: Lato, sans-serif;
 }
 
+.wrapper{
+    min-height: 100%;
+    position: relative;
+    background-color: #dcdcdc;
+    height: 100%;
+}
+
 /* START DROPDOWN MENU */
+
+#site_title {
+    padding: 0px;
+    margin: 15px 0px 0px 15px;
+    color: white;
+    text-align: left;
+}
 
 .dropdown-wrapper{
     overflow: hidden;
@@ -21,17 +35,18 @@ html, body {
 }
 
 .dropdown-parent li {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     background-color: #41555f;
-    cursor: pointer;
-    transition: all 0.2s;
     width: 200px;
     display: inline-block;
     list-style: none;
     text-align: center;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -ms-transition: all 0.2s;
-    -o-transition: all 0.2s;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
   }
 
 .dropdown-parent li a {
@@ -44,11 +59,8 @@ html, body {
 
 }
 .dropdown-parent div {
-    -webkit-transiton: opacity 0.2s;
-    -moz-transition: opacity 0.2s;
-    -ms-transition: opacity 0.2s;
-    -o-transition: opacity 0.2s;
-    -transition: opacity 0.2s;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     width: inherit;
     position: absolute;
     visibility: hidden;
@@ -79,12 +91,36 @@ html, body {
 
 /* END DROPDOWN MENU */
 
-#site_title {
-    padding: 0px;
-    margin: 15px 0px 0px 15px;
+
+/* START FOOTER*/
+
+#footer {
+    overflow: hidden;
+    background-color: #41555f;
     color: white;
-    text-align: left;
+    width: 100%;
+    height: 7%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    line-height: 160%;
+    position: absolute;
+    bottom:0;
+    font-size: 10pt;
+    opacity: 0.9;
+    box-shadow: 0px 0px 20px #000000;
 }
+
+#footer a {
+    color: white;
+}
+
+#footer span {
+    font-size: 120%;
+}
+/* END FOOTER*/
+
+
 
 #photoText{
     float: right;
@@ -99,40 +135,19 @@ html, body {
 	height: 500px;
 	text-align: center;
 	display: inline-block;
+    line-height: 10px;
+    padding-bottom: 60px;
 }
 
 .infoSaloon img{
 	width: 70%;
-	height: 60%;
-	border-radius: 50%;
-	box-shadow: 0px 0px 20px #000000;
+	height: 70%;
+	border-radius: 30px;
+	box-shadow: 0px 0px 10px #000000;
 }
 
 
-#footer {
-	background-color: #41555f;
-	color: white;
-	width: 100%;
-	height: 7%;
-	text-align: center;
-	padding-top: 20px;
-    padding-bottom: 10px;
-	line-height: 160%;
-    position: absolute;
-    bottom: 0px;
-    font-size: 10pt;
-    opacity: 0.8;
-    box-shadow: 0px 0px 20px #000000;
-}
-
-#footer a {
-	color: white;
-}
-
-#footer span {
-	font-size: 120%;
-}
-
+/* START Prices.html*/
 .pricetable {
 	width:70%;
 	height:80%;
@@ -160,7 +175,18 @@ html, body {
 	font-family: Lato, sans-serif;
 	text-align: center;
 }
+/* END Prices.html*/
 
 #vision_content{
+    text-align: center;
+}
+#about_content{
+    text-align: center;
+}
+#trends_content{
+    text-align: center;
+}
+
+#appointment_content{
     text-align: center;
 }
