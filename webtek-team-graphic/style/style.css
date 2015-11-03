@@ -15,6 +15,14 @@ html, body {
     height: 100%;
 }
 
+#pic1 {
+    height: 40px;
+    width: auto;
+    z-index: 1;
+    position: absolute;
+    float: top;
+}
+
 /* START DROPDOWN MENU */
 #site_title {
     padding: 0px;
