@@ -71,10 +71,13 @@
                  if(tracker == "one"){
                     pic1.src = "images/Scissors_icon_black.svg.png";
                     tracker = "two"
-                 } else {
+                 } else if(tracker == "two") {
                     pic1.src = "images/scissor-k-hi.png";
-                    tracker = "one"
-                 }
+                    tracker = "three"
+                } else {
+                    pic1.src = "images/frenulum_short_1500_t.jpg";
+                    tracker = "one";
+                                 }
                  }, 500);
 </script>
 </body>
