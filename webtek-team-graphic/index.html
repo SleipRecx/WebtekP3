@@ -3,6 +3,8 @@
 <head>
     <link rel="stylesheet" href="style/style.css"/>
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+    <script src="scripts/dropdown.js"></script>
+    <script src="scripts/animation.js"></script>
     <meta charset="utf-8" />
     <title>HairwayHeaven</title>
 </head>
@@ -61,22 +63,5 @@
      <hr width="30%">
      &copy; 2015 Hairway to Heaven / Created by Team Graphic
  </footer>
- <script type="text/javascript">
-     var window_source = "images/scissor-k-hi.png";
-     var tracker = "one";
-     var pic1 = document.getElementById("pic1")
-     window.onload = setInterval(function () {
-                 if(tracker == "one"){
-                    pic1.src = "images/Scissors_icon_black.svg.png";
-                    tracker = "two"
-                 } else if(tracker == "two") {
-                    pic1.src = "images/scissor-k-hi.png";
-                    tracker = "three"
-                } else {
-                    pic1.src = "images/frenulum_short_1500_t.jpg";
-                    tracker = "one";
-                                 }
-                 }, 500);
-</script>
 </body>
 </html>

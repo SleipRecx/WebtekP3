@@ -14,7 +14,6 @@ function openMenu(id) {
 }
 
 function close() {
-    console.log("halla");
     if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
 }
 
