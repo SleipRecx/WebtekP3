@@ -2,16 +2,16 @@ html, body {
     margin: 0px;
     padding: 0px;
     font-family: Lato, sans-serif;
-
 }
 
-#body{
-
+.body{
+    background-color: #CFD8DC;
 }
+
 .wrapper{
     min-height: 100%;
     position: relative;
-    background-color: #dcdcdc;
+    background-color: #CFD8DC;
     height: 100%;
 }
 
