@@ -3,12 +3,11 @@
 <head>
     <link rel="stylesheet" href="style/style.css"/>
     <link href="http://fonts.googleapis.com/css?family=Lato&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
-    <script src="scripts/dropdown.js"></script>
     <meta charset="utf-8" />
     <title>HairwayHeaven</title>
 </head>
 
-<body id ="body" style="background: url(images/social_icons/hair.jpg) no-repeat; width: 100%; height: 100%; background-size: cover;">
+<body style="background: url(images/hair.jpg) no-repeat; width: 100%; height: 100%; background-size: cover;">
 <div class= "dropdown-wrapper">
     <h2 id="site_title">Hairway To Heaven</h2>
     <ul class="dropdown-parent">
@@ -27,8 +26,8 @@
         <li><a href="templates/news.html" onmouseover="openMenu('menu3')" onmouseout="closeMenu()"> News </a>
         <div id="menu3" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
             <a href="templates/trends.html"> Trends </a>
-        </div>
-        <li><a href="templates/work.html">Work</a></li>
+        </div></li>
+        <li><a href="templates/work.html">Work</a>
     </ul>
 </div>
 
@@ -37,7 +36,7 @@
     <br>
     <br>
 <p> "Hairway to Heaven is <br>Norways most fashionable<br>hair dresser" <br>
-        <span style="padding-left:45%" > - Jan Thomas </span> </p>
+        <span style="padding-left:45%" > - Jan Thomas </span><img id="pic1" src="images/scissor-k-hi.png" /> </p>
     <br>
     <br>
     <br>
@@ -64,7 +63,19 @@
      <hr width="30%">
      &copy; 2015 Hairway to Heaven / Created by Team Graphic
  </footer>
-
-
+ <script type="text/javascript">
+     var window_source = "images/scissor-k-hi.png";
+     var tracker = "one";
+     var pic1 = document.getElementById("pic1")
+     window.onload = setInterval(function () {
+                 if(tracker == "one"){
+                    pic1.src = "images/Scissors_icon_black.svg.png";
+                    tracker = "two"
+                 } else {
+                    pic1.src = "images/scissor-k-hi.png";
+                    tracker = "one"
+                 }
+                 }, 500);
+</script>
 </body>
 </html>
