@@ -163,3 +163,6 @@ pip-log.txt
 
 ## svn
 *.svn*
+
+
+.idea/
