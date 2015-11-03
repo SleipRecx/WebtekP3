@@ -246,6 +246,10 @@ html, body {
     color: #585858;
 }
 
+#appointment_content table {
+    margin: auto;
+}
+
 #appointment_content td{
     text-align: right;
 }

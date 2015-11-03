@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="../style/style.css"/>
     <link href="http://fonts.googleapis.com/css?family=Lato&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
     <script src="../scripts/dropdown.js"></script>
+    <script src="../scripts/validate.js"></script>
     <title>HairwayHeaven</title>
 </head>
 <body>
@@ -40,7 +41,7 @@
                     <td><label>Phone:</label></td><td><input type="text" name="phone"></td>
                 </tr>
                 <tr>
-                    <td><label>Email:</label></td><td><input type="text" name="email"></td>
+                    <td><label>Email:</label></td><td><input type="email" name="email"></td>
                 </tr>
                 <tr>
                     <td><label>Saloon:</label></td>
@@ -59,17 +60,17 @@
                 </tr>
                 <tr><td><label>Treatment:</label></td>
                     <td><select name="treatment">
-                        <option name=""></option>
-                        <option name=""></option>
-                        <option name=""></option>
-                        <option name=""></option>
-                        <option name=""></option>
-                        <option name=""></option>
+                        <option value="1"></option>
+                        <option value="1"></option>
+                        <option value="1"></option>
+                        <option value="1"></option>
+                        <option value="1"></option>
+                        <option value="1"></option>
                     </select></td>
                 </tr>
                 <tr>
                     <td></td>
-                    <td><button name="submit_btn">Submit</button></td>
+                    <td><button type="button" name="submit_btn" onclick="submitButton()">Submit</button></td>
                 </tr>
 
             </table>
