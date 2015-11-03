@@ -2,7 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="style/style.css"/>
-    <link href="http://fonts.googleapis.com/css?family=Lato&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
     <meta charset="utf-8" />
     <title>HairwayHeaven</title>
 </head>
@@ -36,13 +36,13 @@
     <br>
     <br>
 <p> "Hairway to Heaven is <br>Norways most fashionable<br>hair dresser" <br>
-        <span style="padding-left:45%" > - Jan Thomas </span><img id="pic1" src="images/scissor-k-hi.png" /> </p>
+        <span style="padding-left:45%" > - Jan Thomas </span> </p>
     <br>
     <br>
     <br>
     <br>
+    <img id="pic1" src="images/scissor-k-hi.png" />
 </section>
-
  <footer id="footer">
      <div class="follow_us">
          <i>Follow us</i>
@@ -71,10 +71,13 @@
                  if(tracker == "one"){
                     pic1.src = "images/Scissors_icon_black.svg.png";
                     tracker = "two"
-                 } else {
+                 } else if(tracker == "two") {
                     pic1.src = "images/scissor-k-hi.png";
-                    tracker = "one"
-                 }
+                    tracker = "three"
+                } else {
+                    pic1.src = "images/frenulum_short_1500_t.jpg";
+                    tracker = "one";
+                                 }
                  }, 500);
 </script>
 </body>
