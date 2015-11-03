@@ -139,11 +139,10 @@ html, body {
 }
 
 .infoSaloon img{
-    border: 1px solid black;
 	width: 90%;
 	height: 70%;
-	border-radius: 10px;
-	box-shadow: 0px 0px 5px #000000;
+	border-radius: 3px;
+	box-shadow: 0px 0px 2px #000000;
 }
 
 
@@ -239,6 +238,22 @@ html, body {
     text-align: center;
     margin: 40px;
     color: #585858;
+}
+
+.previousCuts{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    line-height: 10px;
+    padding-bottom: 60px;
+}
+
+.previousCuts img{
+    width: 30%;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px #000000;
 }
 /* END previouscuts.html*/
 
