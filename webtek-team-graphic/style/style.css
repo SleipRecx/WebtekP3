@@ -255,6 +255,12 @@ html, body {
     margin: 40px;
     color: #585858;
 }
+
+#appointment_content td{
+    text-align: right;
+}
+
+
 /* END appointment.html*/
 
 /* START news.html*/
