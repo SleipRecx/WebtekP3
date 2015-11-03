@@ -212,6 +212,12 @@ html, body {
     margin: 40px;
     color: #585858;
 }
+#vision{
+    width: 30%;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px #000000;
+}
 /* END vision.html*/
 
 
