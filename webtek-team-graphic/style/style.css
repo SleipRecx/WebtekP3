@@ -5,11 +5,22 @@ html, body {
 
 }
 
+#body{
+
+}
 .wrapper{
     min-height: 100%;
     position: relative;
     background-color: #dcdcdc;
     height: 100%;
+}
+
+#pic1 {
+    height: 40px;
+    width: auto;
+    z-index: 1;
+    position: absolute;
+    float: top;
 }
 
 /* START DROPDOWN MENU */
@@ -99,10 +110,10 @@ html, body {
     background-color: #41555f;
     color: white;
     width: 100%;
-    height: 7%;
+    height: 90px;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     line-height: 160%;
     position: absolute;
     bottom:0;
@@ -111,8 +122,53 @@ html, body {
     box-shadow: 0px 0px 20px #000000;
 }
 
+.social_images{
+    width: 25px;
+    height: 25px;
+}
+
+.follow_us{
+    font-size: 12pt;
+    float: right;
+    padding-top: 10px;
+    padding-right: 70px;
+    margin: 0px;
+    line-height: 200%;
+}
+.subscribe{
+    font-size: 12pt;
+    float: left;
+    padding-top: 10px;
+    padding-left: 70px;
+    margin: 0px;
+    line-height: 200%;
+}
+
+.subscribe input[type="text"]{
+    width: 150px;
+    height: 7px;
+    padding: 6px 12px;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #000000;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+
+}
+
+.follow2 button{
+    width: 10px;
+    height: 7px;
+    display:inline-block;
+    text-decoration:none;
+    border-radius: 0px;
+}
+
+
 #footer a {
     color: white;
+    text-decoration: none;
 }
 
 #footer span {
@@ -154,7 +210,7 @@ html, body {
 }
 
 .pricetable {
-	width:95%;
+
 	height:90%;
 	border:0px solid;
 	border-collapse:collapse;
@@ -183,7 +239,6 @@ html, body {
 }
 
 #prices_section {
-	width: 100%;
 	height: 80%;
 	padding: 20px;
 	font-family: Lato, sans-serif;
@@ -211,6 +266,7 @@ html, body {
     text-align: center;
     margin: 40px;
     color: #585858;
+
 }
 #vision{
     width: 30%;
@@ -254,6 +310,10 @@ html, body {
     text-align: center;
     margin: 40px;
     color: #585858;
+}
+
+#appointment_content table {
+    margin: auto;
 }
 
 #appointment_content td{
