@@ -188,11 +188,10 @@ html, body {
 }
 
 .infoSaloon img{
-    border: 1px solid black;
 	width: 90%;
 	height: 70%;
-	border-radius: 10px;
-	box-shadow: 0px 0px 5px #000000;
+	border-radius: 3px;
+	box-shadow: 0px 0px 2px #000000;
 }
 
 
@@ -203,23 +202,32 @@ html, body {
 }
 
 .pricetable {
-	width:70%;
-	height:80%;
-	border:1px solid;
+	width:95%;
+	height:90%;
+	border:0px solid;
 	border-collapse:collapse;
 	padding:5px;
 	margin-left: auto;
 	margin-right: auto;
+
 }
 .pricetable th {
-	border:1px solid;
+	border:0px solid;
 	padding:5px;
 	background:#FFFFFF;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
 }
 .pricetable td {
-	border:1px solid;
+	border:0px solid;
 	text-align:center;
 	padding:5px;
+    width: 30%;
+    padding-bottom: 15px;
+    font-size: 15px;
+    
+
 }
 
 #prices_section {
@@ -228,6 +236,12 @@ html, body {
 	padding: 20px;
 	font-family: Lato, sans-serif;
 	text-align: center;
+}
+
+#text-price{
+    margin-left: 14%;
+    margin-right: 14%;
+
 }
 /* END prices.html*/
 
@@ -247,6 +261,12 @@ html, body {
     color: #585858;
 
 }
+#vision{
+    width: 30%;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px #000000;
+}
 /* END vision.html*/
 
 
@@ -265,6 +285,16 @@ html, body {
     margin: 40px;
     color: #585858;
 }
+
+.hollywoodpicture img{
+    width: 30%;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px #000000;
+
+} 
+
+
 /* END trends.html*/
 
 
@@ -274,6 +304,16 @@ html, body {
     margin: 40px;
     color: #585858;
 }
+
+#appointment_content table {
+    margin: auto;
+}
+
+#appointment_content td{
+    text-align: right;
+}
+
+
 /* END appointment.html*/
 
 /* START news.html*/
@@ -281,6 +321,13 @@ html, body {
     text-align: center;
     margin: 40px;
     color: #585858;
+    font-weight: bold;
+}
+
+#date{
+    font-family: cursive;
+    text-align: left;
+    font-size: 17px;
 }
 /* END news.html*/
 
@@ -289,6 +336,22 @@ html, body {
     text-align: center;
     margin: 40px;
     color: #585858;
+}
+
+.previousCuts{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    line-height: 10px;
+    padding-bottom: 60px;
+}
+
+.previousCuts img{
+    width: 30%;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px #000000;
 }
 /* END previouscuts.html*/
 
