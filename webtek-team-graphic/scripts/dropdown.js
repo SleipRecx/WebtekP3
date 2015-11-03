@@ -1,12 +1,11 @@
 /**
  * Created by markusandresen on 02/11/15.
  */
-var timeout	= 20;
+var timeout	= 40;
 var closetimer	= 0;
 var ddmenuitem	= 0;
 
-function openMenu(id)
-{
+function openMenu(id) {
     cancelCloseTime();
     if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
     ddmenuitem = document.getElementById(id);
@@ -15,6 +14,7 @@ function openMenu(id)
 }
 
 function close() {
+    console.log("halla");
     if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
 }
 
@@ -31,3 +31,4 @@ function cancelCloseTime(){
 }
 
 document.onclick = close();
+document.addEventListener("mousedown",close());
