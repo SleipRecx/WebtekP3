@@ -246,6 +246,13 @@ html, body {
     text-align: center;
     margin: 40px;
     color: #585858;
+    font-weight: bold;
+}
+
+#date{
+    font-family: cursive;
+    text-align: left;
+    font-size: 17px;
 }
 /* END news.html*/
 
