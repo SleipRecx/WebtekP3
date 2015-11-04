@@ -4,27 +4,31 @@
     <link rel="stylesheet" href="style/style.css"/>
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
     <script src="scripts/dropdown.js"></script>
-    <script src="scripts/animation.js"></script>
-    <meta charset="utf-8" />
+    <script src="scripts/backgroundchange.js"></script>
+    <meta charset="utf-8"/>
     <title>HairwayHeaven</title>
 </head>
-<body style="background: url(images/hair.jpg) no-repeat; width: 100%; height: 100%; background-size: cover;">
-<div class= "dropdown-wrapper">
+<body class="body_index image1">
+<div class="dropdown-wrapper">
     <h2 id="site_title">Hairway To Heaven</h2>
     <ul class="dropdown-parent">
         <li><a href="index.html">Home</a>
-        <li><a href="templates/appointment.html" onmouseover="openMenu('menu1')" onmouseout="closeMenu()">Appointment</a>
+        <li><a href="templates/appointment.html" onmouseover="openMenu('menu1')"
+               onmouseout="closeMenu()">Appointment</a>
+
             <div id="menu1" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
                 <a href="templates/previouscuts.html"> Previous Cuts</a>
                 <a href="templates/prices.html">Prices</a>
             </div>
         </li>
         <li><a href="templates/about.html" onmouseover="openMenu('menu2')" onmouseout="closeMenu()">About </a>
+
             <div id="menu2" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
                 <a href="templates/vision.html"> Vision </a>
             </div>
         </li>
         <li><a href="templates/news.html" onmouseover="openMenu('menu3')" onmouseout="closeMenu()"> News </a>
+
             <div id="menu3" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
                 <a href="templates/trends.html"> Trends </a>
             </div>
@@ -35,30 +39,26 @@
     <br>
     <br>
     <br>
-<p> "Hairway to Heaven is <br>Norways most fashionable<br>hair dresser" <br>
-        <span style="padding-left:45%" > - Jan Thomas </span><img id="pic1" src="images/scissor-k-hi.png" /> </p>
-   
-    
 </section>
- <footer id="footer">
-     <div class="follow_us">
-         <i>Follow us</i>
-         <br>
-         <a href=""> <img class="social_images" src="images/social_icons/facebook.png" alt="twitter logo"> </a>
-         &nbsp;
-         <a href=""><img class="social_images"  src="images/social_icons/insta.png" alt="twitter logo"></a>
-         &nbsp;
-         <a href=""><img class="social_images"  src="images/social_icons/twitter.png" alt="twitter logo"></a></span>
-     </div>
-     <div class="subscribe">
-         <i>Subscribe to newsletter</i>
-         <br>
-         <input type="text" name="email">
-     </div>
-     <br>
-     <span style="font-size: 12pt">There is no such thing as a natural beauty</span>
-     <hr width="30%">
-     &copy; 2015 Hairway to Heaven / Created by Team Graphic
- </footer>
+<footer id="footer">
+    <div class="follow_us">
+        <i>Follow us</i>
+        <br>
+        <a href=""> <img class="social_images" src="images/social_icons/facebook.png" alt="twitter logo"> </a>
+        &nbsp;
+        <a href=""><img class="social_images" src="images/social_icons/insta.png" alt="twitter logo"></a>
+        &nbsp;
+        <a href=""><img class="social_images" src="images/social_icons/twitter.png" alt="twitter logo"></a></span>
+    </div>
+    <div class="subscribe">
+        <i>Subscribe to newsletter</i>
+        <br>
+        <input type="text" name="email">
+    </div>
+    <br>
+    <span style="font-size: 12pt">There is no such thing as a natural beauty</span>
+    <hr width="30%">
+    &copy; 2015 Hairway to Heaven / Created by Team Graphic
+</footer>
 </body>
 </html>
