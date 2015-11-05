@@ -3,29 +3,36 @@
  */
 window.addEventListener('load',loaded);
 var body;
-var xx;
-var x=0;
+var changer;
+var counter=2;
+var stop = true;
+var button;
 
 function loaded(){
-    xx = window.setInterval(changebackground,10000);
-    body = document.getElementsByClassName("body_index")[0];
-
+    body = document.getElementsByClassName("body")[0];
+    changer = window.setInterval(changebackground,10000);
+    button = document.getElementById("background-stop");
+    button.addEventListener("click",start_stop);
 }
 
 function changebackground(){
-    if(x==0){
-        body.className = "body_index image2";
-        x=1;
+    if(counter == 5){
+        counter = 1;
     }
-    else if(x==1){
-        body.className = "body_index image1";
-        x=2;
+    body.className = "body image"+ counter.toString();
+    counter+=1;
+}
+
+function start_stop(){
+    if(stop==true){
+        window.clearInterval(changer);
+        stop = false;
+        button.innerHTML = "Resume background";
     }
     else{
-        body.className = "body_index image3";
-        x=0;
+
+        changer = window.setInterval(changebackground,5000);
+        stop = true;
+        button.innerHTML = "Pause background";
     }
-
-
-
 }
