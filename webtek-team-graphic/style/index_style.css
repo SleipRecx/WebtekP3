@@ -1,25 +1,34 @@
 .body{
-    background-size:cover;
     transition: background 2s  ease-in-out 0s;
 
 }
 .image1{
+    /* Preloads hair2 so image transition is smooth */
+    background: url(../images/backgrounds/hair2.jpg) no-repeat;
+    /* Sets right background*/
     background: url(../images/backgrounds/hair1.jpg) no-repeat;
     background-size:cover;
 }
 
 
 .image2{
+    /* Preloads hair3 so image transition is smooth */
+    background: url(../images/backgrounds/hair3.png) no-repeat;
+    /* Sets right background*/
     background: url(../images/backgrounds/hair2.jpg) no-repeat;
     background-size:cover;
 }
 
 .image3{
+    /* Preloads hair4 so image transition is smooth */
+    background: url(../images/backgrounds/hair4.jpg) no-repeat;
+    /* Sets right background*/
     background: url(../images/backgrounds/hair3.png) no-repeat;
     background-size:cover;
 }
 
 .image4{
+    /* Sets right background*/
     background: url(../images/backgrounds/hair4.jpg) no-repeat;
     background-size:cover;
 }
