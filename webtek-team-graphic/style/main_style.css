@@ -60,7 +60,6 @@
 }
 .pricetable th {
     border:0px solid;
-    background:#FFFFFF;
     padding: 5px 5px 30px;
     font-size: 20px;
     font-weight: bold;
@@ -152,12 +151,26 @@
     color: #585858;
 }
 
+#appointment_content input {
+    font-size: large;
+}
+
+#appointment_content select {
+    font-size: large;
+}
+
+#appointment_content button {
+    font-size: large;
+}
+
 #appointment_content table {
     margin: auto;
 }
 
 #appointment_content td{
     text-align: right;
+    padding-bottom: 10px;
+
 }
 
 
