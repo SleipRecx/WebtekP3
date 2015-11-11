@@ -1,6 +1,6 @@
 addEventListener("load", function(){
                  var quoteElement = document.getElementById("greeting");
-                 var dayIndexes = ["monday!","tuesday!","wednesday!","thursday!","friday!","saturday!","sunday!"];
+                 var dayIndexes = ["Monday!","Tuesday!","Wednesday!","Thursday!","Friday!","Saturday!","Sunday!"];
                  var dayObject = new Date();
                  var index = dayObject.getDay();
                  console.log(index);
