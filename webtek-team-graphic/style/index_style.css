@@ -1,0 +1,40 @@
+.body{
+    transition: background 2s  ease-in-out 0s;
+}
+
+.image1{
+    background: url(../images/backgrounds/hair1.jpg),url(../images/backgrounds/hair2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+.image2{
+    background: url(../images/backgrounds/hair2.jpg),url(../images/backgrounds/hair3.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.image3{
+    background: url(../images/backgrounds/hair3.png), url(../images/backgrounds/hair4.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.image4{
+    background: url(../images/backgrounds/hair4.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#background-stop{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: white;
+    font-size: 9pt;
+    text-decoration: none;
+}
+#background-stop:hover{
+    background-color: rgba(255, 255, 255, 0.19);
+}
