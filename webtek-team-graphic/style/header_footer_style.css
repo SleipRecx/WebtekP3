@@ -87,9 +87,9 @@ html, body {
 /* START FOOTER*/
 
 #footer {
-    position: fixed;
-    bottom: 0px;
     overflow: hidden;
+    position: relative;
+    bottom: 0px;
     background-color: #41555f;
     color: white;
     width: 100%;
