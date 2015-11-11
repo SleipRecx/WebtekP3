@@ -1,3 +1,7 @@
+p {
+    display: inline-block !important;
+}
+
 .body{
     background-color: #CFD8DC;
 }
