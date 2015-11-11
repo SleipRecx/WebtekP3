@@ -8,4 +8,5 @@ function loaded(){
     var wrapper = document.getElementsByClassName("wrapper")[0];
     console.log(wrapper.style.minHeight);
     wrapper.style.minHeight = height+"px";
+    wrapper.style.display = "block";
 }

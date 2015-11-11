@@ -2,6 +2,12 @@
     transition: background 2s  ease-in-out 0s;
 }
 
+.wrapper{
+    position: relative;
+    height: 100%;
+    display: none;
+}
+
 .image1{
     background: url(../images/backgrounds/hair1.jpg),url(../images/backgrounds/hair2.jpg);
     background-repeat: no-repeat;
@@ -37,8 +43,4 @@
 }
 #background-stop:hover{
     background-color: rgba(255, 255, 255, 0.19);
-}
-
-section{
-    min-height: 540px;
 }
