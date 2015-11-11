@@ -207,7 +207,6 @@
 
 /* START previouscuts.html*/
 #previouscuts_content{
-    position: relative;
     text-align: center;
     margin: 40px;
     color: #585858;
@@ -219,7 +218,6 @@
 }
 
 .previousCutsImages{
-    z-index: -1;
     width: 30%;
     height: auto;
     border-radius: 3px;
