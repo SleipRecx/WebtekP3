@@ -2,6 +2,9 @@ html, body {
     margin: 0px;
     padding: 0px;
     font-family: Lato, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #232525;
+
 }
 
 /* START DROPDOWN MENU */
