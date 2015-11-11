@@ -95,8 +95,18 @@
 #work_content{
     text-align: center;
     margin: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
     color: #585858;
 }
+#work_content h3 {
+    text-align: left;
+}
+#work_content ul {
+    text-align: left;
+    margin-left: 5%;
+}
+
 /* END work.html*/
 
 
