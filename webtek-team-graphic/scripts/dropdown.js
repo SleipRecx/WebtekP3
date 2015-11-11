@@ -29,9 +29,6 @@ function cancelCloseTime(){
     }
 }
 
-function hover(){
-
-}
 
 document.onclick = close();
 document.addEventListener("mousedown",close());

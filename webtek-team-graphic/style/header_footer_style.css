@@ -104,8 +104,8 @@ html, body {
 }
 
 .social_images{
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
 }
 
 .follow_us{
@@ -116,36 +116,20 @@ html, body {
     margin: 0px;
     line-height: 200%;
 }
-.subscribe{
-    font-size: 12pt;
+.contact ul {
     float: left;
-    padding-top: 10px;
-    padding-left: 70px;
     margin: 0px;
-    line-height: 200%;
+    padding-top: 20px;
+    padding-left: 30px;
+    list-style: none;
+    text-align: left;
+    font-size: 9pt;
+    line-height: 140%;
 }
 
-.subscribe input[type="text"]{
-    width: 150px;
-    height: 7px;
-    padding: 6px 12px;
-    display: inline-block;
-    font-size: 12px;
-    line-height: 1.42857143;
-    color: #000000;
-    background-color: #ccc;
-    border: 1px solid #ccc;
-
+.contact a:hover{
+    background-color: rgba(255, 255, 255, 0.19);
 }
-
-.follow2 button{
-    width: 10px;
-    height: 7px;
-    display:inline-block;
-    text-decoration:none;
-    border-radius: 0px;
-}
-
 
 #footer a {
     color: white;
