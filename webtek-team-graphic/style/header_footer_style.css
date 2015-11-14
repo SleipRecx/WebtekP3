@@ -45,8 +45,7 @@ html, body {
 }
 
 .dropdown-parent li a {
-    display: block;
-    width: inherit;
+    display:block;
     color: #FFF;
     font-size: 15pt;
     text-align: center;
@@ -56,20 +55,18 @@ html, body {
 .dropdown-parent div {
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
-    width: inherit;
     position: absolute;
     visibility: hidden;
+    width: inherit;
     margin: 0;
     padding: 0px;
     background-color: #41555f;
 }
 
 .dropdown-parent div a {
-    position: relative;
     display: block;
     margin: 0;
     padding: 5px 10px;
-    width: auto;
     line-height: 200%;
     text-align: center;
     text-decoration: none;
@@ -128,6 +125,15 @@ html, body {
     text-align: left;
     font-size: 9pt;
     line-height: 140%;
+}
+
+
+@media screen and (max-width: 650px) {
+
+    #phrase_div{
+        visibility: hidden;
+
+    }
 }
 
 .contact a:hover{

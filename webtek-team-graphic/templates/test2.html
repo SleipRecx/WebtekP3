@@ -1,0 +1,123 @@
+<!--
+FILE NAME: templates/previouscuts.html
+WRITTEN BY: Everyone
+WHEN: October 2015
+PURPOSE: Shows a gallery of previous haircuts done at H2H
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../style/header_footer_style.css"/>
+    <link rel="stylesheet" href="../style/main_style.css"/>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+    <script src="../scripts/dropdown.js"></script>
+    <script src="../scripts/height.js"></script>
+    <script src="../scripts/phrase.js"></script>
+    <meta charset="utf-8" />
+    <title>Previous Cuts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+            margin: auto;
+            width: inherit;
+            height: inherit;
+        }
+    </style>
+</head>
+<body class = "body">
+<div class = wrapper>
+    <div class= "dropdown-wrapper">
+        <h2 id="site_title">Hairway To Heaven</h2>
+        <ul class="dropdown-parent">
+            <li><a href="../index.html">Home</a>
+            <li><a href="appointment.html" onmouseover="openMenu('menu1')" onmouseout="closeMenu()">Appointment</a>
+                <div id="menu1" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
+                    <a href="previouscuts.html"> Previous Cuts</a>
+                    <a href="prices.html">Prices</a>
+                </div>
+            </li>
+            <li><a href="about.html" onmouseover="openMenu('menu2')" onmouseout="closeMenu()">About </a>
+                <div id="menu2" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
+                    <a href="vision.html"> Vision </a>
+                </div>
+            </li>
+            <li><a href="news.html" onmouseover="openMenu('menu3')" onmouseout="closeMenu()"> News </a>
+                <div id="menu3" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
+                    <a href="trends.html"> Trends </a>
+                </div>
+            <li><a href="work.html">Work</a></li>
+        </ul>
+    </div>
+    <center>
+    <section id="previouscuts_content" style="box-shadow: 0px 0px 20px #000000; width: 20%; height: 400px;">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" >
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="../haircuts/1-trendy-Hairstyles-For-mens-1.png" alt="Chania">
+                    <div class="carousel-caption">
+                        <h4>Caption Text</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="http://placehold.it/1200x315" alt="...">
+                    <div class="carousel-caption">
+                        <h3>Caption Text</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="http://placehold.it/1200x315" alt="...">
+                    <div class="carousel-caption">
+                        <h3>Caption Text</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+    </section>
+        </center>
+
+    <footer id="footer">
+        <div class="follow_us">
+            <i>Follow us</i>
+            <br>
+            <a href=""> <img class="social_images" src="../images/social_icons/facebook.png" alt="twitter logo"> </a>
+            &nbsp;
+            <a href=""><img class="social_images"  src="../images/social_icons/insta.png" alt="twitter logo"></a>
+            &nbsp;
+            <a href=""><img class="social_images"  src="../images/social_icons/twitter.png" alt="twitter logo"></a></span>
+        </div>
+        <div class="contact">
+            <ul>
+                <li><address><a href="https://maps.google.com/?q=58250 Slottsplassen 1, 0010 Oslo" target="_blank">Slottsplassen 1, 0010 Oslo</a></address></li>
+                <li>+47 973 85 93</li>
+                <li><a href="mailto:support@hairway.com?Subject=Hello" target="_top">support@hairway.com</a></li>
+            </ul>
+        </div>
+        <br>
+        <span id="phrase" style="font-size: 12pt">There is no such thing as natural beauty</span>
+        <hr width="30%">
+        &copy; 2015 Hairway to Heaven / Created by Team Graphic
+    </footer>
+</div>
+</body>
+</html>
