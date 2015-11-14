@@ -27,29 +27,32 @@ PURPOSE: Allows user to fill in a form and book appointment
     <h2 id="site_title">Hairway To Heaven</h2>
     <ul class="dropdown-parent">
         <li><a href="../index.html">Home</a>
+            <!-- Dropdown submenu start -->
         <li><a href="appointment.html" onmouseover="openMenu('menu1')" onmouseout="closeMenu()">Appointment</a>
 
             <div id="menu1" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
                 <a href="previouscuts.html"> Previous Cuts</a>
                 <a href="prices.html">Prices</a>
             </div>
-        </li>
+        <!-- Dropdown submenu end -->
+    </li>
         <li><a href="about.html" onmouseover="openMenu('menu2')" onmouseout="closeMenu()">About </a>
-
+            <!-- Dropdown submenu start -->
             <div id="menu2" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
                 <a href="vision.html"> Vision </a>
             </div>
+            <!-- Dropdown submenu end -->
         </li>
         <li><a href="news.html" onmouseover="openMenu('menu3')" onmouseout="closeMenu()"> News </a>
-
+            <!-- Dropdown submenu start -->
             <div id="menu3" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
                 <a href="trends.html"> Trends </a>
             </div>
-
+            <!-- Dropdown submenu end -->
         <li><a href="work.html">Work</a></li>
     </ul>
 </div>
-    <!-- Drop down menu end -->
+    <!-- End of dropdown menu -->
 <section id="appointment_content">
     <h1>Book an appointment</h1>
     <!-- Start appointment form-->
@@ -109,7 +112,9 @@ PURPOSE: Allows user to fill in a form and book appointment
     <!-- Greeting modified by JS -->
     <p id="greeting"></p>
 </section>
+    <!-- Start of footer -->
     <footer id="footer">
+        <!-- Start social media links -->
         <div class="follow_us">
             <i>Follow us</i>
             <br>
@@ -119,20 +124,26 @@ PURPOSE: Allows user to fill in a form and book appointment
             &nbsp;
             <a href=""><img class="social_images"  src="../images/social_icons/twitter.png" alt="twitter logo"></a>
         </div>
+        <!-- End social media links -->
+        <!-- Start Contact info -->
         <div class="contact">
             <ul>
                 <li><address><a href="https://maps.google.com/?q=58250%20Slottsplassen%201,%200010%20Oslo" target="_blank">Slottsplassen 1, 0010 Oslo</a></address></li>
                 <li>+47 973 85 93</li>
                 <li><a href="mailto:support@hairway.com?Subject=Hello" target="_top">support@hairway.com</a></li>
             </ul>
+            <!-- End of contact info -->
+            <!-- Catchphrase and copyright info start -->
             <div id ="phrase_div">
                 <br>
                 <span id="phrase" style="font-size: 12pt">There is no such thing as natural beauty</span>
                <hr>
                 &copy; 2015 Hairway to Heaven / Created by Team Graphic
             </div>
+            <!-- Catchphrase and copyright info end -->
         </div>
     </footer>
+    <!-- ENd of footer -->
 </div>
 </body>
 </html>
