@@ -1,10 +1,18 @@
 <!DOCTYPE html>
+<!--
+FILE NAME: index.html
+WRITTEN BY: Everyone
+WHEN: October 2015
+PURPOSE: Web page home
+-->
 <html>
 <head>
+    <!-- Links to stylesheets-->
     <link rel="stylesheet" href="style/header_footer_style.css"/>
     <link rel="stylesheet" href="style/index_style.css"/>
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links to JavaScripts-->
     <script src="scripts/dropdown.js"></script>
     <script src="scripts/backgroundchange.js"></script>
     <script src="scripts/height.js"></script>
@@ -14,6 +22,7 @@
 </head>
 <body class="body image1">
 <div class="wrapper">
+    <!-- Dropdown menu start-->
 <div class="dropdown-wrapper">
     <h2 id="site_title">Hairway To Heaven</h2>
     <a id ="background-stop" href="#">Pause background</a>
@@ -21,26 +30,33 @@
         <li><a href="index.html">Home</a>
         <li><a href="templates/appointment.html" onmouseover="openMenu('menu1')"
                onmouseout="closeMenu()">Appointment</a>
+        <!-- Submenu start-->
             <div id="menu1" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
                 <a href="templates/previouscuts.html"> Previous Cuts</a>
                 <a href="templates/prices.html">Prices</a>
             </div>
+        <!-- Submenu end-->
         </li>
         <li><a href="templates/about.html" onmouseover="openMenu('menu2')" onmouseout="closeMenu()">About </a>
-
+            <!-- Submenu start-->
             <div id="menu2" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
                 <a href="templates/vision.html"> Vision </a>
             </div>
+            <!-- Submenu end-->
         </li>
         <li><a href="templates/news.html" onmouseover="openMenu('menu3')" onmouseout="closeMenu()"> News </a>
-
+            <!-- Submenu start-->
             <div id="menu3" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
                 <a href="templates/trends.html"> Trends </a>
             </div>
+            <!-- Submenu end-->
         <li><a href="templates/work.html">Work</a></li>
     </ul>
 </div>
+    <!-- Dropdown menu end-->
+    <!-- Start footer-->
 <footer id="footer">
+    <!-- Start social media links-->
     <div class="follow_us">
         <i>Follow us</i>
         <br>
@@ -50,6 +66,8 @@
         &nbsp;
         <a href=""><img class="social_images" src="images/social_icons/twitter.png" alt="twitter logo"></a>
     </div>
+    <!-- End social media links-->
+    <!-- Start contact info-->
     <div class="contact">
         <ul>
             <li><address><a href="https://maps.google.com/?q=58250%20Slottsplassen%201,%200010%20Oslo" target="_blank">Slottsplassen 1, 0010 Oslo</a></address></li>
@@ -57,13 +75,17 @@
             <li><a href="mailto:support@hairway.com?Subject=Hello" target="_top">support@hairway.com</a></li>
         </ul>
     </div>
+    <!-- End contact info-->
+    <!-- Start catchphrase and copyright info-->
     <div id ="phrase_div">
     <br>
     <span id="phrase" style="font-size: 12pt">There is no such thing as natural beauty</span>
     <hr>
     &copy; 2015 Hairway to Heaven / Created by Team Graphic
     </div>
+    <!-- End of catchphrase and copyright info-->
 </footer>
+    <!-- End of footer-->
 </div>
 </body>
 </html>
