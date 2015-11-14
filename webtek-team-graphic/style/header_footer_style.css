@@ -30,6 +30,7 @@ html, body {
 }
 
 .dropdown-parent li {
+    overflow: hidden;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     background-color: #41555f;
@@ -81,6 +82,40 @@ html, body {
     background-color: rgba(255, 255, 255, 0.19);
 }
 
+
+@media screen and (max-width: 1045px) {
+    .dropdown-parent li {
+        width: 150px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .dropdown-parent li {
+        width: 100px;
+    }
+    .dropdown-parent li a {
+        font-size: 13pt;
+    }
+    .dropdown-parent div a {
+        font-size: 13pt;
+    }
+}
+
+@media screen and (max-width: 546px) {
+    .dropdown-parent li {
+        width: 70px;
+    }
+    .dropdown-parent li a {
+        font-size: 8pt;
+    }
+
+    .dropdown-parent div a {
+        font-size: 8pt;
+    }
+}
+
+
 /* END DROPDOWN MENU */
 
 
@@ -129,13 +164,24 @@ html, body {
 
 
 @media screen and (max-width: 650px) {
-
     #phrase_div{
         visibility: hidden;
 
     }
-}
 
+    .follow_us{
+        font-size: 10pt;
+    }
+    .social_images{
+        width: 25px;
+        height: 25px;
+    }
+
+    .contact ul {
+        font-size: 8pt;
+    }
+
+}
 .contact a:hover{
     background-color: rgba(255, 255, 255, 0.19);
 }

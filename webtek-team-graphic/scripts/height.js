@@ -11,6 +11,6 @@ function loaded(){
 
     window.addEventListener('resize', function(){
         height = window.innerHeight;
-        wrapper.style.minHeight = height+"px";
+        wrapper.style.minHeight= height+"px";
     });
 }
