@@ -7,9 +7,11 @@ PURPOSE: Show users information about the chain
 -->
 <html>
 <head>
+    <!-- Links to stylesheets -->
     <link rel="stylesheet" href="../style/header_footer_style.css"/>
     <link rel="stylesheet" href="../style/main_style.css"/>
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+    <!-- Links to JavaScript-->
     <script src="../scripts/dropdown.js"></script>
     <script src="../scripts/height.js"></script>
     <script src="../scripts/phrase.js"></script>
@@ -18,37 +20,41 @@ PURPOSE: Show users information about the chain
 </head>
 <body class="body">
 <div class=wrapper>
+    <!-- Dropdown menus start-->
     <div class="dropdown-wrapper">
         <h2 id="site_title">Hairway To Heaven</h2>
         <ul class="dropdown-parent">
             <li><a href="../index.html">Home</a>
             <li><a href="appointment.html" onmouseover="openMenu('menu1')" onmouseout="closeMenu()">Appointment</a>
-
+            <!-- Submenu start-->
                 <div id="menu1" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
                     <a href="previouscuts.html"> Previous Cuts</a>
                     <a href="prices.html">Prices</a>
                 </div>
+            <!-- Submenu end-->
             </li>
             <li><a href="about.html" onmouseover="openMenu('menu2')" onmouseout="closeMenu()">About </a>
-
+                <!-- Submenu start-->
                 <div id="menu2" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
                     <a href="vision.html"> Vision </a>
                 </div>
+                <!-- Submenu end-->
             </li>
             <li><a href="news.html" onmouseover="openMenu('menu3')" onmouseout="closeMenu()"> News </a>
-
+                <!-- Submenu start-->
                 <div id="menu3" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
                     <a href="trends.html"> Trends </a>
                 </div>
+                <!-- Submenu end-->
             <li><a href="work.html">Work</a></li>
         </ul>
     </div>
-
+    <!-- Dropdown menu end-->
     <section id="about_content">
         <h1> Our Salons</h1>
 
         <p>We have exclusive salons in all the major cities in Norway</p>
-
+        <!-- Start Images and text for saloons-->
         <div class="infoSaloon">
             <img src="../images/salons/salon3.jpg" alt="Oslo"/>
 
@@ -79,9 +85,11 @@ PURPOSE: Show users information about the chain
             <a href="https://www.google.com/maps?q=58250+Bryggen,%205003%20Bergen" target="_blank">Address: Bryggen, 5003 Bergen</a>
             <p>Phone: 973 85 93</p>
         </div>
-
+        <!-- End of images and text-->
     </section>
+    <!-- Start footer-->
     <footer id="footer">
+        <!-- Start social media links-->
         <div class="follow_us">
             <i>Follow us</i>
             <br>
@@ -91,6 +99,8 @@ PURPOSE: Show users information about the chain
             &nbsp;
             <a href=""><img class="social_images"  src="../images/social_icons/twitter.png" alt="twitter logo"></a>
         </div>
+        <!-- End social media link-->
+        <!-- Start contact info-->
         <div class="contact">
             <ul>
                 <li><address><a href="https://maps.google.com/?q=58250%20Slottsplassen%201,%200010%20Oslo" target="_blank">Slottsplassen 1, 0010 Oslo</a></address></li>
@@ -98,13 +108,17 @@ PURPOSE: Show users information about the chain
                 <li><a href="mailto:support@hairway.com?Subject=Hello" target="_top">support@hairway.com</a></li>
             </ul>
         </div>
+        <!-- End contact info-->
+        <!-- Start catchphrase and copyright info-->
         <div id ="phrase_div">
             <br>
             <span id="phrase" style="font-size: 12pt">There is no such thing as natural beauty</span>
             <hr>
             &copy; 2015 Hairway to Heaven / Created by Team Graphic
         </div>
+        <!-- End catchphrase and copyright info-->
     </footer>
+    <!-- End footer-->
 </div>
 </body>
 </html>

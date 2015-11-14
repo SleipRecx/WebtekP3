@@ -7,41 +7,54 @@ PURPOSE: Shows a gallery of previous haircuts done at H2H
 -->
 <html>
 <head>
+    <!-- Links to stylesheets -->
     <link rel="stylesheet" href="../style/header_footer_style.css"/>
     <link rel="stylesheet" href="../style/main_style.css"/>
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+    <!-- Links to scripts -->
     <script src="../scripts/dropdown.js"></script>
     <script src="../scripts/height.js"></script>
     <script src="../scripts/phrase.js"></script>
+    <!-- Sets the charset and title -->
     <meta charset="utf-8"/>
     <title>Previous Cuts</title>
 </head>
 <body class = "body">
 <div class = wrapper>
+    <!-- Dropdown menu start -->
     <div class= "dropdown-wrapper">
         <h2 id="site_title">Hairway To Heaven</h2>
         <ul class="dropdown-parent">
             <li><a href="../index.html">Home</a>
             <li><a href="appointment.html" onmouseover="openMenu('menu1')" onmouseout="closeMenu()">Appointment</a>
+                <!-- Dropdown submenu start -->
                 <div id="menu1" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
                     <a href="previouscuts.html"> Previous Cuts</a>
                     <a href="prices.html">Prices</a>
                 </div>
+                <!-- Dropdown submenu end -->
             </li>
             <li><a href="about.html" onmouseover="openMenu('menu2')" onmouseout="closeMenu()">About </a>
+                <!-- Dropdown submenu start -->
                 <div id="menu2" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
                     <a href="vision.html"> Vision </a>
                 </div>
+                <!-- Dropdown submenu end -->
             </li>
             <li><a href="news.html" onmouseover="openMenu('menu3')" onmouseout="closeMenu()"> News </a>
+                <!-- Dropdown submenu start -->
                 <div id="menu3" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
                     <a href="trends.html"> Trends </a>
                 </div>
+                <!-- Dropdown submenu end -->
             <li><a href="work.html">Work</a></li>
         </ul>
     </div>
+    <!-- End of dropdown menu -->
+<!-- Previous cuts content start -->
 <div id="previouscuts_content">
     <br/><br/><br/><br/>
+    <!-- Male previous cuts start -->
     <img class="previousCutsImages" src="../haircuts/1-trendy-Hairstyles-For-mens-1.png" alt= "VIP CUT"/>
     <br/><br/>
     <div class="previousCuts">
@@ -79,8 +92,9 @@ PURPOSE: Shows a gallery of previous haircuts done at H2H
     <div class="previousCuts">
         <p>Perfect cut for the legit pimp</p>
     </div>
+    <!-- End previous cuts males -->
     <br/><br/>
-    
+    <!-- Start previous cuts  females -->
     <img class="previousCutsImages" src="../haircuts/f6d27b9c3758411dc3a897e89274554e.jpg" alt="diva cut"/>
     <br/><br/>
     <div class="previousCuts">
@@ -94,9 +108,13 @@ PURPOSE: Shows a gallery of previous haircuts done at H2H
     <div class="previousCuts">
         <p>If you like haircuts that are low maintenance, this is it.</p>
     </div>
+    <!-- End previous cuts females -->
     <br/><br/>
 </div>
+<!-- End of previous cuts content -->
+    <!-- Start of footer -->
     <footer id="footer">
+        <!-- Start social media links -->
         <div class="follow_us">
             <i>Follow us</i>
             <br>
@@ -106,6 +124,8 @@ PURPOSE: Shows a gallery of previous haircuts done at H2H
             &nbsp;
             <a href=""><img class="social_images"  src="../images/social_icons/twitter.png" alt="twitter logo"></a>
         </div>
+        <!-- End social media links -->
+        <!-- Start Contact info -->
         <div class="contact">
             <ul>
                 <li><address><a href="https://maps.google.com/?q=58250%20Slottsplassen%201,%200010%20Oslo" target="_blank">Slottsplassen 1, 0010 Oslo</a></address></li>
@@ -113,13 +133,17 @@ PURPOSE: Shows a gallery of previous haircuts done at H2H
                 <li><a href="mailto:support@hairway.com?Subject=Hello" target="_top">support@hairway.com</a></li>
             </ul>
         </div>
+        <!-- End of contact info -->
+        <!-- Catchphrase and copyright info start -->
         <div id ="phrase_div">
             <br>
             <span id="phrase" style="font-size: 12pt">There is no such thing as natural beauty</span>
             <hr>
             &copy; 2015 Hairway to Heaven / Created by Team Graphic
         </div>
+        <!-- Catchphrase and copyright info end -->
     </footer>
+    <!-- End of footer -->
     </div>
     </body>
 </html>

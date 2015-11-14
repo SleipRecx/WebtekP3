@@ -6,49 +6,63 @@ WHEN: October 2015
 PURPOSE: Update users on the latest hollywood trends
 -->
 <head>
+    <!-- Links to stylesheets -->
     <link rel="stylesheet" href="../style/header_footer_style.css"/>
     <link rel="stylesheet" href="../style/main_style.css"/>
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+     <!-- Links to scripts -->
     <script src="../scripts/dropdown.js"></script>
     <script src="../scripts/height.js"></script>
     <script src="../scripts/phrase.js"></script>
+    <!-- Sets the charset and title -->
     <meta charset="utf-8"/>
     <title>Trends</title>
 </head>
 <body class = "body">
 <div class="wrapper">
+    <!-- Dropdown menu start -->
 <div class= "dropdown-wrapper">
     <h2 id="site_title">Hairway To Heaven</h2>
     <ul class="dropdown-parent">
         <li><a href="../index.html">Home</a>
         <li><a href="appointment.html" onmouseover="openMenu('menu1')" onmouseout="closeMenu()">Appointment</a>
+            <!-- Dropdown submenu start -->
             <div id="menu1" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
                 <a href="previouscuts.html"> Previous Cuts</a>
                 <a href="prices.html">Prices</a>
             </div>
+            <!-- Dropdown submenu end -->
         </li>
         <li><a href="about.html" onmouseover="openMenu('menu2')" onmouseout="closeMenu()">About </a>
+            <!-- Dropdown submenu start -->
             <div id="menu2" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
                 <a href="vision.html"> Vision </a>
             </div>
+            <!-- Dropdown submenu end -->
         </li>
         <li><a href="news.html" onmouseover="openMenu('menu3')" onmouseout="closeMenu()"> News </a>
+            <!-- Dropdown submenu start -->
             <div id="menu3" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
                 <a href="trends.html"> Trends </a>
             </div>
+            <!-- Dropdown submenu end -->
         <li><a href="work.html">Work</a></li>
     </ul>
 </div>
+ <!-- End of dropdown menu -->
     <section id="trends_content">
         <br>
         <br>
+        <!-- Start headline news -->
 		<h1>Hollywood News</h1>
         <p>Missing inspiration for a new hairstyle? On this page you can keep up with the new trends in Hollywood, and different hairstyles that are popular right now.</p>
 
         <hr>
-
+        <!-- End headline news -->
+        
 		<div class="date"> 03.11.2015</div>
             <br><br>
+        <!-- Start one news -->
         <div class = "hollywoodpicture">
         <p> Look at her! Allison Williams's top knot is the perfect post-weekend hairstyle.</p>   
             <img src="../images/etc/hollywoodnews1.jpg" alt="allison williams"/>
@@ -57,10 +71,10 @@ PURPOSE: Update users on the latest hollywood trends
                 </p>
         <hr>
         </div>
-
-
+        <!-- End one news -->
         <div class="date"> 23.10.2015</div>
             <br><br>
+        <!-- Start one news -->
         <div class = "hollywoodpicture">  
         <p>Want something simple, but still classy for the weekend? Recreate Reese Witherspoon's classy hairstyle from The American Cinematheque Awards. </p> 
             <img src="../images/etc/hollywoodtrends2.jpg" alt="resee witherspoon"/>
@@ -69,8 +83,10 @@ PURPOSE: Update users on the latest hollywood trends
                 </p>
         <hr>
         </div>
+        <!-- End one news -->
          <div class="date"> 04.11.2015</div>
             <br><br>
+        <!-- Start one news -->
         <div class = "hollywoodpicture">   
             <p> Take a look here boys, Harry Styles's man bun bs bne of the Top-Googled celebrity Hairstyles in Hollywood.</p>
             <img src="../images/etc/hollywoodtrends3.jpg" alt="Harry Styles"/>
@@ -78,10 +94,13 @@ PURPOSE: Update users on the latest hollywood trends
                     This is an easy way to get a Hollywood trend hairstyle.
                 </p>
         </div>
+    <!-- End one news -->
 
         <br><br><br>
     </section>
+    <!-- Start of footer -->
     <footer id="footer">
+        <!-- Start social media links -->
         <div class="follow_us">
             <i>Follow us</i>
             <br>
@@ -91,6 +110,8 @@ PURPOSE: Update users on the latest hollywood trends
             &nbsp;
             <a href=""><img class="social_images"  src="../images/social_icons/twitter.png" alt="twitter logo"></a>
         </div>
+        <!-- End social media links -->
+        <!-- Start Contact info -->
         <div class="contact">
             <ul>
                 <li><address><a href="https://maps.google.com/?q=58250%20Slottsplassen%201,%200010%20Oslo" target="_blank">Slottsplassen 1, 0010 Oslo</a></address></li>
@@ -98,13 +119,17 @@ PURPOSE: Update users on the latest hollywood trends
                 <li><a href="mailto:support@hairway.com?Subject=Hello" target="_top">support@hairway.com</a></li>
             </ul>
         </div>
+        <!-- End of contact info -->
+        <!-- Catchphrase and copyright info start -->
         <div id ="phrase_div">
             <br>
             <span id="phrase" style="font-size: 12pt">There is no such thing as natural beauty</span>
             <hr>
             &copy; 2015 Hairway to Heaven / Created by Team Graphic
         </div>
+        <!-- Catchphrase and copyright info end -->
     </footer>
+    <!-- End of footer -->
 </div>
 </body>
 </html>
