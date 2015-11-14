@@ -8,6 +8,7 @@ var counter=2;
 var stop = true;
 var button;
 
+// Gets loaded when html is renderd
 function loaded(){
     body = document.getElementsByClassName("body")[0];
     changer = window.setInterval(changebackground,10000);
@@ -15,6 +16,7 @@ function loaded(){
     button.addEventListener("click",start_stop);
 }
 
+// Changes background to the next image
 function changebackground(){
     if(counter == 5){
         counter = 1;
@@ -23,6 +25,7 @@ function changebackground(){
     counter+=1;
 }
 
+// Starts or stops the backgrund changer
 function start_stop(){
     if(stop==true){
         window.clearInterval(changer);
@@ -30,7 +33,6 @@ function start_stop(){
         button.innerHTML = "Resume background";
     }
     else{
-
         changer = window.setInterval(changebackground,5000);
         stop = true;
         button.innerHTML = "Pause background";
