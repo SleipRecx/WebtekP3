@@ -160,6 +160,9 @@ html, body {
     font-size: 9pt;
     line-height: 140%;
 }
+#phrase_div{
+    text-align: center;
+}
 
 
 @media screen and (max-width: 650px) {
