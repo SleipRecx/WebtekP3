@@ -115,7 +115,6 @@ html, body {
     }
 }
 
-
 /* END DROPDOWN MENU */
 
 
@@ -160,6 +159,9 @@ html, body {
     text-align: left;
     font-size: 9pt;
     line-height: 140%;
+}
+#phrase_div{
+    text-align: center;
 }
 
 
