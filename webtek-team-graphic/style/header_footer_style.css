@@ -163,9 +163,12 @@ html, body {
 #phrase_div{
     text-align: center;
 }
+#phrase_div hr{
+   width: 30%;
+}
 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 670px) {
     #phrase_div{
         visibility: hidden;
 
