@@ -7,55 +7,76 @@ PURPOSE: Show users news from Hairway to Heaven
 -->
 <html>
 <head>
+    <!-- Links to stylesheets -->
     <link rel="stylesheet" href="../style/header_footer_style.css"/>
     <link rel="stylesheet" href="../style/main_style.css"/>
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+    <!-- Links to scripts -->
     <script src="../scripts/dropdown.js"></script>
     <script src="../scripts/height.js"></script>
     <script src="../scripts/phrase.js"></script>
+    <!-- Sets the charset and title -->
     <meta charset="utf-8"/>
     <title>News</title>
 </head>
 <body class = "body">
 <div class="wrapper">
+<!-- Dropdown menu start -->
 <div class= "dropdown-wrapper">
     <h2 id="site_title">Hairway To Heaven</h2>
     <ul class="dropdown-parent">
         <li><a href="../index.html">Home</a>
         <li><a href="appointment.html" onmouseover="openMenu('menu1')" onmouseout="closeMenu()">Appointment</a>
+            <!-- Dropdown submenu start -->
             <div id="menu1" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
                 <a href="previouscuts.html"> Previous Cuts</a>
                 <a href="prices.html">Prices</a>
             </div>
+            <!-- Dropdown submenu end -->
         </li>
         <li><a href="about.html" onmouseover="openMenu('menu2')" onmouseout="closeMenu()">About </a>
+            <!-- Dropdown submenu start -->
             <div id="menu2" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
                 <a href="vision.html"> Vision </a>
             </div>
+            <!-- Dropdown submenu end -->
         </li>
         <li><a href="news.html" onmouseover="openMenu('menu3')" onmouseout="closeMenu()"> News </a>
+            <!-- Dropdown submenu start -->
             <div id="menu3" onmouseover="cancelCloseTime()" onmouseout="closeMenu()">
                 <a href="trends.html"> Trends </a>
             </div>
+            <!-- Dropdown submenu end -->
         <li><a href="work.html">Work</a></li>
     </ul>
 </div>
+<!-- End of dropdown menu -->
+<!-- Start News content -->
 <section id="news_content">
         <h1>News</h1>
+        <!-- News post 4.11.15 start -->
          <div class="date">04.11.2015</div>
         <p> 
             Today we is happy to present a new feature to our work: Wedding styling! If you are getting married in the nearest future, book the weeding look at us. The booking is done on <a href="appointment.html">this</a> page. Make sure to book the appointment early. We are looking forward to making the unforgettable day even better!
         </p>
+        <!-- News post 4.11.15 end -->
+        <!-- News post 3.11.15 start -->
         <div class="date">03.11.2015</div>
         <p>
             Today we send 5 of our employees to Paris. They are all going to a conference with keynote speakers Jennifer Lopez and Kim Karadshian. During this conference our employees will attend different courses in new trends in Paris, so that they can provide the most modern haircuts. They will upload photos and updates on Instagram and Facebook, so go to our profiles and follow them on their amazing trip to Paris!
         </p>
+        <!-- News post 3.11.15 end -->
+        <!-- News post 2.11.15 start -->
         <div class="date">02.11.2015</div>
         <p>
             We have just released our new homepage! The page is made by Team Graphic, consisting of 5 awesome developers. If you miss any content in the homepage, please let ut know so that we can notify the developers. 
         </p>
+        <!-- News post 2.11.15 end -->
 </section>
+<!-- End news content -->
+    <!-- Start of footer -->
     <footer id="footer">
+        <!-- Start social media links -->
         <div class="follow_us">
             <i>Follow us</i>
             <br>
@@ -65,6 +86,8 @@ PURPOSE: Show users news from Hairway to Heaven
             &nbsp;
             <a href=""><img class="social_images"  src="../images/social_icons/twitter.png" alt="twitter logo"></a>
         </div>
+        <!-- End social media links -->
+        <!-- Start Contact info -->
         <div class="contact">
             <ul>
                 <li><address><a href="https://maps.google.com/?q=58250%20Slottsplassen%201,%200010%20Oslo" target="_blank">Slottsplassen 1, 0010 Oslo</a></address></li>
@@ -72,13 +95,17 @@ PURPOSE: Show users news from Hairway to Heaven
                 <li><a href="mailto:support@hairway.com?Subject=Hello" target="_top">support@hairway.com</a></li>
             </ul>
         </div>
+        <!-- End of contact info -->
+        <!-- Catchphrase and copyright info start -->
         <div id ="phrase_div">
             <br>
             <span id="phrase" style="font-size: 12pt">There is no such thing as natural beauty</span>
             <hr>
             &copy; 2015 Hairway to Heaven / Created by Team Graphic
         </div>
+        <!-- Catchphrase and copyright info end -->
     </footer>
+    <!-- End of footer -->
 </div>
     </body>
 </html>
