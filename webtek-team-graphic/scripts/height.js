@@ -12,7 +12,7 @@ function loaded(){
     var wrapper = document.getElementsByClassName("wrapper")[0];
     //Sets minHeight to window height
     wrapper.style.minHeight = height+"px";
-    wrapper.style.display = "block";
+    
 
     // Changes wrapper min height when window is resized
     window.addEventListener('resize', function(){

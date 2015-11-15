@@ -1,11 +1,16 @@
 .body{
-    background-color: #CFD8DC;
+    background: url(../images/backgrounds/background.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    animation: fadein 0.6s;
+    -moz-animation: fadein 0.6s;
+    -webkit-animation: fadein 0.6s;
+    -o-animation: fadein 0.6s;
 }
 
 .wrapper{
     position: relative;
     height: 100%;
-    display: none;
 }
 
 #pic1 {
@@ -102,6 +107,12 @@
     text-align: left;
     margin-left: 5%;
 }
+#work_content a {
+    color: #585858;
+}
+#work_content a:hover {
+    color: grey;
+}
 /* END work.html*/
 
 
@@ -131,6 +142,14 @@
 #about_content a{
     color: #585858;
 }
+
+#about_content img{
+     animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    -webkit-animation: fadein 3s;
+    -o-animation: fadein 3s;
+    transition: transform 1s;  
+}
 /* END about.html*/
 
 
@@ -147,6 +166,11 @@
     min-width: 50%;
     border-radius: 3px;
     box-shadow: 0px 0px 2px #000000;
+     animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    -webkit-animation: fadein 3s;
+    -o-animation: fadein 3s;
+    transition: transform 1s;  
 }
 
 
@@ -208,10 +232,35 @@
     line-height: 20px;
 }
 
-.previousCutsImages{
+#previouscuts_content img{
     width: 30%;
     height: auto;
     border-radius: 3px;
     box-shadow: 0px 0px 2px #000000;
+     animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    -webkit-animation: fadein 3s;
+    -o-animation: fadein 3s;
+    transition: transform 1s;  
+}
+
+#previouscuts_content img:hover{
+  transform:scale(1.1,1.1);
 }
 /* END previouscuts.html*/
+
+
+@keyframes fadein {
+    from {opacity:0;}
+    to{opacity:1;}
+}
+
+@-webkitkey-keyframes fadein {
+    from {opacity:0;}
+    to{opacity:1;}
+}
+
+@-ms-keyframes fadein {
+    from {opacity:0;}
+    to{opacity:1;}
+}
